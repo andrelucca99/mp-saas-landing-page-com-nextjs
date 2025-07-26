@@ -3,6 +3,7 @@ import womanIMg from "../assets/woman.png";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Check } from "lucide-react";
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 
 export function Main() {
   return (
@@ -33,12 +34,32 @@ export function Main() {
           </div>
         </div>
       </section>
-      <section>
-        <h2>Preço Simples e Transparente</h2>
-        <p>
+      <section className="py-16 text-center">
+        <h2 className="font-bold text-6xl">Preço Simples e Transparente</h2>
+        <p className="text-gray-500 mt-4 text-xl max-w-3xl mx-auto">
           Pra que inúmeros planos quando nós sabemos exatamente o que é melhor para você? Assine o nosso plano mensal Pro Premium VIP e garanta mensalmente um ebook novo de programação. E por menos de um café por dia.
         </p>
-        <div>card</div>
+        <Card className="w-[350px] mx-auto text-left mt-20">
+          <CardHeader>
+            <CardTitle>Plano Pro Premium VIP</CardTitle>
+            <CardDescription>Tudo que você precisa para seus estudos</CardDescription>
+          </CardHeader>
+          <CardContent>
+            <p className="text-4xl font-bold mb-8 mt-4">
+              R$29
+              <span className="font-normal text-muted-foreground text-lg">/mês</span>
+            </p>
+            <ul>
+              <li className="flex gap-2 text-muted-foreground"><Check className="w-4 text-green-600" />Acesso a 1 ebook por mês</li>
+              <li className="flex gap-2 text-muted-foreground"><Check className="w-4 text-green-600" />Curadoria especial</li>
+              <li className="flex gap-2 text-muted-foreground"><Check className="w-4 text-green-600" />Acesso ilimitado</li>
+              <li className="flex gap-2 text-muted-foreground"><Check className="w-4 text-green-600" />Cancele quando quiser</li>
+            </ul>
+          </CardContent>
+          <CardFooter>
+            <Button className="w-full cursor-pointer">Assine Agora</Button>
+          </CardFooter>
+        </Card>
       </section>
       <section className="bg-white">
         <h3>Pronto Para Mudar Sua Vida?</h3>
