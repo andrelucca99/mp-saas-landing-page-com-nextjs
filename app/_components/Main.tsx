@@ -61,11 +61,11 @@ export function Main() {
           </CardFooter>
         </Card>
       </section>
-      <section className="bg-white">
-        <h3>Pronto Para Mudar Sua Vida?</h3>
-        <p>Faça como milhares de outras pessoas. Assine nosso produto e tenha garantido seus estudos</p>
-        <button>Assine Agora</button>
-        <p>Comece sua assinatura agora mesmo. Cancele quando quiser.</p>
+      <section className="bg-white py-16 text-center">
+        <h2 className="font-bold text-6xl">Pronto Para Mudar Sua Vida?</h2>
+        <p className="text-gray-500 mt-4 text-xl max-w-3xl mx-auto">Faça como milhares de outras pessoas. Assine nosso produto e tenha garantido seus estudos</p>
+        <Button className="w-96 mt-14 cursor-pointer">Assine Agora</Button>
+        <p className="text-xs text-muted-foreground mt-2">Comece sua assinatura agora mesmo. Cancele quando quiser.</p>
       </section>
     </main>
   );
