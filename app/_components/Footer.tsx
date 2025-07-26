@@ -3,9 +3,9 @@ import Logo from "../assets/Logo.png";
 
 export function Footer() {
   return (
-    <footer>
-      <Image src={Logo} alt="Logo Livro Saas" />
-      <p>© 2024 LivroSaaS. Todos os direitos reservados.</p>
+    <footer className="py-8 border-t border-gray-300 bg-white text-center">
+      <Image src={Logo} alt="Logo Livro Saas" className="mx-auto" />
+      <p className="text-muted-foreground">© 2024 LivroSaaS. Todos os direitos reservados.</p>
     </footer>
   );
 }
