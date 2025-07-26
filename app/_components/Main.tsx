@@ -9,7 +9,7 @@ export function Main() {
         <p>
           Deixe que nós fazemos a curadoria para você. Assine nossa plataforma e receba todos os meses um ebook novo de programação.
         </p>
-        <input type="submit" placeholder="Coloque seu e-mail" />
+        <input type="email" placeholder="Coloque seu e-mail" />
         <button>Assine Agora</button>
         <p>Comece sua assinatura agora mesmo. Cancele quando quiser. </p>
       </section>
