@@ -21,9 +21,9 @@ export function Main() {
           </div>
         </form>
         <p className="text-xs text-muted-foreground mt-2">
-          Comece sua assinatura agora mesmo.
+          Comece sua assinatura agora mesmo. 
           <br className="block sm:hidden" />
-          Cancele quando quiser.
+          <span className="underline cursor-pointer">Cancele quando quiser.</span>
         </p>
       </section>
       <section className="bg-white py-8 md:py-16">
@@ -71,9 +71,9 @@ export function Main() {
         <p className="text-gray-500 mt-4 text-xl max-w-3xl mx-auto">Faça como milhares de outras pessoas. Assine nosso produto e tenha garantido seus estudos</p>
         <Button className="w-76 md:w-96 mt-14 cursor-pointer">Assine Agora</Button>
         <p className="text-xs text-muted-foreground mt-2">
-          Comece sua assinatura agora mesmo.
+          Comece sua assinatura agora mesmo. 
           <br className="block sm:hidden" />
-          Cancele quando quiser.
+          <span className="underline cursor-pointer">Cancele quando quiser.</span>
         </p>
       </section>
     </main>
